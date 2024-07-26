@@ -17,7 +17,7 @@ fi
 if [ -d "$LINUXTOOLBOXDIR/mybash" ]; then rm -rf "$LINUXTOOLBOXDIR/mybash"; fi
 
 echo "${YELLOW}Cloning mybash repository into: $LINUXTOOLBOXDIR/mybash${RC}"
-git clone https://github.com/ChrisTitusTech/mybash "$LINUXTOOLBOXDIR/mybash"
+git clone https://github.com/salehabdullah216/saleh-bash.git "$LINUXTOOLBOXDIR/mybash"
 if [ $? -eq 0 ]; then
     echo "${GREEN}Successfully cloned mybash repository${RC}"
 else
